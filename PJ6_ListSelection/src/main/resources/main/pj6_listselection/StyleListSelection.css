@@ -1,0 +1,47 @@
+.root{
+    -fx-background-color: white;
+}
+.text-field {
+    -fx-text-fill: rgb(128, 128, 128);
+    -fx-border-radius: 100px;
+}
+.label {
+    -fx-font-family: Tahoma;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+.label-header {
+    -fx-font-family: Tahoma;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-border-color: black;
+    -fx-border-width: 1px;
+    -fx-padding: 5px;
+    -fx-border-radius: 5px;
+}
+.label-header:hover {
+    -fx-background-color: #737171;
+    -fx-text-fill: #7c2a2a;
+}
+
+.list-view .list-cell:odd{
+    -fx-background-color: rgb(229, 225, 225);
+}
+.list-view .list-cell:even {
+    -fx-background-color: #dad8d8;
+}
+.list-view .list-cell {
+    -fx-border-color: transparent;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-border-width: 1px;
+}
+.list-view .list-cell:hover{
+    -fx-background-color: #737171;
+    -fx-text-fill: #7c2a2a;
+}
+/* change color for selected items */
+.list-view .list-cell:filled:selected {
+    -fx-background-color: #737171;
+    -fx-text-fill: #7c2a2a;
+}
